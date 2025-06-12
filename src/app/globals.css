@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ededed;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* styles/globals.css, por exemplo */
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE e Edge */
+  scrollbar-width: none;    /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari e Opera */
+}
+#Us {
+  scroll-margin-top:115px;
+}
+#services {
+  scroll-margin-top:105px;
+}
+#Packs {
+  scroll-margin-top:105px;
+}
+#Forms {
+  scroll-margin-top:75px;
+}
+#Depoimentos {
+  scroll-margin-top:80px;
+}
+#Duvidas {
+  scroll-margin-top:80px;
+}
